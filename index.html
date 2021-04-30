@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fieldset Tag</title>
+</head>
+
+<body>
+
+  <form>
+
+    <fieldset>
+
+      <legend>Information</legend>
+
+      <cite>Name : </cite>
+      <input type="text">
+
+      <br>
+      <hr>
+
+      <cite>Age :</cite>
+      <input type="text">
+
+      <br>
+      <hr>
+
+      <cite>Email-id : </cite>
+      <input type="email">
+
+      <br>
+      <hr>
+
+      <cite>Class :</cite>
+      <input type="text">
+
+      <br>
+      <hr>
+
+      <cite>Birth Date:</cite>
+      <input type="date">
+
+      <br>
+      <hr>
+
+      <label for="Subject">
+        <em>Favorite Subject </em>:
+      </label>
+
+      <input list="Subject_types" name="Subject_types" id="Subject_choice">
+
+      <datalist id="Subject_types">
+        <option value="Computer">
+        <option value="Physics">
+        <option value="Maths">
+        <option value="Chemistry">
+        <option value="Biology">
+        <option value="Geography">
+        <option value="History">
+        <option value="English">
+        <option value="Hindi">
+
+      </datalist>
+
+      <br>
+      <hr>
+
+      Choose Your Favorite<em> Colour </em> :
+      <input type="color">
+
+      <br>
+      <hr>
+
+      <label for="Language">
+        <em>Computer Language</em>
+        In which you are best
+      </label>
+
+      <input list="Language_types" name="Language_types" id="Language_choice">
+
+      <datalist id="Language_types">
+        <option value="HTML">
+        <option value="CSS">
+        <option value="JavaScript">
+        <option value="Python">
+        <option value="Java">
+        <option value="C">
+        <option value="C++">
+        <option value="C#">
+        <option value="React Native">
+        <option value="SQL">
+        <option value="Ruby">
+        <option value="PHP">
+        <option value="Swift">
+
+      </datalist>
+
+      <br>
+      <hr>
+
+      Do you like <em>Coding</em> ?
+      If so then on which
+      <em> platform you like to code </em>:
+      <input type="text">
+
+      <br>
+      <hr>
+
+      Where you <em>live </em> ?
+      <input type="text">
+
+      <br>
+      <hr>
+
+  Hope you <em>like </em> it ?
+
+      <input type="checkbox" name="Yes">
+<label for="Yes">Yes</label>
+
+<input type="checkbox" name="No">
+<label for="No">No</label>
+
+      <br>
+      <hr>
+
+      <button type="submit" value="Submit">
+        Submit
+      </button>
+
+    </fieldset>
+
+  </form>
+
+</body>
+
+</html>
